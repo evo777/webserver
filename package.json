@@ -1,0 +1,23 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evo777/webserver.git"
+  },
+  "author": "Emmanuel Vo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evo777/webserver/issues"
+  },
+  "homepage": "https://github.com/evo777/webserver#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}
