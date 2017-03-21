@@ -54,6 +54,8 @@ app.post('/subscribe', (req, res) => {
   console.log(name+ ' has subscribed with ' + email);
 });
 
-app.listen(3000, () => {
+var port = process.env.PORT || 3000;
+
+app.listen(port, () => {
   console.log('Server started on port 3000');
 });
